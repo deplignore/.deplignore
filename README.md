@@ -41,4 +41,6 @@ foo/**/test
 
 ## Known software-support
 
-If you know FTP-Clients, Build-servers, deployment-tools or anything else, that supports this, let us know!
+- **rsync**: Works via the --filter-param `rsync --filter=':- .deplignore' SRC DEST`
+
+If you know more FTP-Clients, Build-servers, deployment-tools or anything else, that supports this, let us know!
